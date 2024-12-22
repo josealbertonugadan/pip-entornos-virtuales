@@ -1,5 +1,3 @@
-"""Módulo principal"""
-
 import charts
 
 
