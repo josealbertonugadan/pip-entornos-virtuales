@@ -2,7 +2,19 @@ import matplotlib.pyplot as plt
 
 
 def generate_pie_chart():
-    """Crea una gráfico de pastel"""
+    """
+    Generates a pie chart with predefined labels and values, and saves it as a PNG file.
+
+    This function creates a pie chart using the labels ["A", "B", "C"] and the corresponding
+    values [200, 34, 120].
+    The generated pie chart is saved as "pie.png" in the current directory.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     labels = ["A", "B", "C"]
     values = [200, 34, 120]
 
