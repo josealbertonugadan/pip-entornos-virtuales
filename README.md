@@ -18,3 +18,14 @@ source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+
+## Web Server Project
+```sh
+git clone
+cd web-server
+docker-compose build
+docker-compose up -d
+docker-compose ps
+docker-compose exec web-server bash
+python main.py
+```
