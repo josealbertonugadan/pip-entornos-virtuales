@@ -1,6 +1,6 @@
 import store
-from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi import FastAPI  # type: ignore
+from fastapi.responses import HTMLResponse  # type: ignore
 
 app = FastAPI()
 
@@ -24,7 +24,7 @@ def get_contact():
     Returns:
         dict: A dictionary containing the contact name.
     """
-    return {"name": "Platzi"}
+    return {"name": "Hola Platzi"}
 
 
 @app.get("/about", response_class=HTMLResponse)

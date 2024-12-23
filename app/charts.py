@@ -31,7 +31,7 @@ def generate_pie_chart(pie_labels, pie_values):
     ax = fig.add_subplot(1, 1, 1)
     ax.pie(pie_values, labels=pie_labels)
     ax.axis("equal")
-    plt.savefig("pie.png")
+    plt.savefig("pie_final.png")
     plt.close()
 
 
